@@ -1,0 +1,8 @@
+vrf shinhan
+rd 65501:105
+route-target import 65501:105
+route-target export 65501:105
+vrf vib
+rd 65501: 106
+route-target import 65501: 106
+route-target export 65501: 106
